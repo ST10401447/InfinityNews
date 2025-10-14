@@ -33,7 +33,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     //A method to handle the login part
-    
+
     private fun handleLogin() {
         val email = emailInput.text.toString()
         val password = passwordInput.text.toString()
@@ -43,7 +43,7 @@ class LoginActivity : AppCompatActivity() {
             return
         }
 
-        // Simple validation (in real app, validate with backend)
+        // Simple validation in real app, validate with backend
         val sharedPref = getSharedPreferences("InfinityNewsPrefs", MODE_PRIVATE)
         val storedEmail = sharedPref.getString("email", "")
         val storedPassword = sharedPref.getString("password", "")
