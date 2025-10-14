@@ -34,7 +34,7 @@ class NewsAdapter(
         val news = newsList[position]
         holder.newsTitle.text = news.title
 
-        // Load image
+        // Loading of the image
         Glide.with(holder.itemView.context)
             .load(news.imageUrl)
             .placeholder(android.R.drawable.ic_dialog_info)
