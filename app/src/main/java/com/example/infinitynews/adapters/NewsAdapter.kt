@@ -54,7 +54,7 @@ class NewsAdapter(
             onBookmarkClick(news, news.isBookmarked)
         }
 
-        // Open article on click
+        // Open article when the user clicks
         val openUrl = {
             news.url?.let { url ->
                 val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
