@@ -27,6 +27,7 @@ class CategoriesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_categories)
+
    //Bottom navigation buttons  and news category images
         homeIcon = findViewById(R.id.homeIcon)
         categoriesIcon = findViewById(R.id.categoriesIcon)
@@ -44,7 +45,8 @@ class CategoriesActivity : AppCompatActivity() {
     }
 
     private fun loadCategoryImages() {
-        // Load latest image for each category
+
+        // Loading the latest image for each category
         loadCategoryImage("general", generalImage)
         loadCategoryImage("politics", politicsImage)
         loadCategoryImage("sports", sportsImage)
@@ -99,6 +101,7 @@ class CategoriesActivity : AppCompatActivity() {
         })
     }
 
+    //method used to call different categories using ID
     private fun setupCategoryButtons() {
         findViewById<Button>(R.id.generalButton).setOnClickListener {
             loadCategoryNews("general", "General")
