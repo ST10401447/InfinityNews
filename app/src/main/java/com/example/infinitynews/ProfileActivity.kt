@@ -140,7 +140,7 @@ class ProfileActivity : AppCompatActivity() {
             Toast.makeText(this, "Profile saved successfully", Toast.LENGTH_SHORT).show()
         }
     }
-
+      //Method to  for the user to log out if they had signed in
     private fun setupLogoutButton() {
         logoutButton.setOnClickListener {
             val sharedPref = getSharedPreferences("InfinityNewsPrefs", MODE_PRIVATE)
