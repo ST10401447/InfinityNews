@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/appLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo"
+        android:contentDescription="App Logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="News Categories"
+        android:textColor="#333333"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="16dp">
+
+                <ImageView
+                    android:id="@+id/generalImage"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:scaleType="centerCrop" />
+
+                <Button
+                    android:id="@+id/generalButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="General"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <ImageView
+                    android:id="@+id/politicsImage"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:scaleType="centerCrop" />
+
+                <Button
+                    android:id="@+id/politicsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="Politics"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <ImageView
+                    android:id="@+id/sportsImage"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:scaleType="centerCrop" />
+
+                <Button
+                    android:id="@+id/sportsButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="Sports"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_background" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="24dp">
+
+                <ImageView
+                    android:id="@+id/techImage"
+                    android:layout_width="120dp"
+                    android:layout_height="80dp"
+                    android:src="@android:drawable/ic_dialog_info"
+                    android:scaleType="centerCrop" />
+
+                <Button
+                    android:id="@+id/techButton"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginStart="16dp"
+                    android:text="Tech"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/button_background" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal"
+        android:background="#F5F5F5"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/homeIcon"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@drawable/home"
+            android:contentDescription="Home" />
+
+        <ImageView
+            android:id="@+id/categoriesIcon"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@drawable/menu"
+            android:contentDescription="Categories" />
+
+        <ImageView
+            android:id="@+id/bookmarksIcon"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@drawable/bookmark"
+            android:contentDescription="Bookmarks" />
+
+        <ImageView
+            android:id="@+id/profileIcon"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:layout_weight="1"
+            android:src="@drawable/profile"
+            android:contentDescription="Profile" />
+
+        <ImageView
+            android:id="@+id/settingsIcon"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:src="@drawable/setting"
+            android:contentDescription="Settings"
+            android:clickable="true"
+            android:focusable="true"
+            android:scaleType="fitCenter"
+            android:padding="4dp"/>
+    </LinearLayout>
+</LinearLayout>
