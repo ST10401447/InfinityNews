@@ -8,7 +8,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        // Check if user is logged in
+        // Check if user has logged in
         val sharedPref = getSharedPreferences("InfinityNewsPrefs", MODE_PRIVATE)
         val isLoggedIn = sharedPref.getBoolean("isLoggedIn", false)
 
