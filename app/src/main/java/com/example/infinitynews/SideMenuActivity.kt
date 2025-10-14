@@ -42,7 +42,6 @@ class SideMenuActivity : AppCompatActivity() {
             finish()
         }
 
-        // Settings Icon 
         findViewById<ImageView>(R.id.settingsIcon).setOnClickListener {
             Toast.makeText(this, "You're already on Settings", Toast.LENGTH_SHORT).show()
         }
