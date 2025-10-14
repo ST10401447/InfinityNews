@@ -27,7 +27,7 @@ class CategoriesActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_categories)
-
+   //Bottom navigation buttons  and news category images
         homeIcon = findViewById(R.id.homeIcon)
         categoriesIcon = findViewById(R.id.categoriesIcon)
         bookmarksIcon = findViewById(R.id.bookmarksIcon)
