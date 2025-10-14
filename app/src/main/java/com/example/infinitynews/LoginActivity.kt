@@ -32,6 +32,8 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
+    //A method to handle the login part
+    
     private fun handleLogin() {
         val email = emailInput.text.toString()
         val password = passwordInput.text.toString()
