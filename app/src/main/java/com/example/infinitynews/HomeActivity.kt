@@ -222,7 +222,7 @@ class HomeActivity : AppCompatActivity() {
             startActivity(Intent(this, BookmarksActivity::class.java))
         }
     }
-
+    //method to check notifications
     private fun checkNotifications() {
         val sharedPref = getSharedPreferences("InfinityNewsPrefs", MODE_PRIVATE)
         val hasNotifications = sharedPref.getBoolean("hasNotifications", true)
