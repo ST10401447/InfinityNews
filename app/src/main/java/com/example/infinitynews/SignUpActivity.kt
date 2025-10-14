@@ -26,7 +26,7 @@ class SignUpActivity : AppCompatActivity() {
             handleSignUp()
         }
     }
-
+    //Method that checks if the sign up requirements are met
     private fun handleSignUp() {
         val email = emailInput.text.toString()
         val password = passwordInput.text.toString()

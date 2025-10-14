@@ -52,6 +52,7 @@ class SideMenuActivity : AppCompatActivity() {
         // Tech Menu
         findViewById<LinearLayout>(R.id.menuTech).setOnClickListener {
             Toast.makeText(this, "Tech Category Selected", Toast.LENGTH_SHORT).show()
+
             // Navigate back to home with tech category
             val intent = Intent(this, HomeActivity::class.java)
             intent.putExtra("category", "technology")
