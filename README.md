@@ -51,7 +51,8 @@ The purpose of the InfinityNews App is to:
    * The user can change the context to be written in the language they prefer.
    * SSO feature has been added for the user to have full access after logging in.
 
-#  Link For Video Demo:https: //youtu.be/aEHNQbqueLg?si=L3Gem1crbL1cmmhR
+#  Link For YouTube Video Demo:https://youtu.be/6Qr_oGnPo2E?si=_afiTnT1kdgSx0eP
+
 
    
      
