@@ -58,6 +58,13 @@ dependencies {
     androidTestImplementation("androidx.test:rules:1.5.0")
 
     // Unit Testing Dependencies
+
+    // ✅ Unit testing (local)
     testImplementation("junit:junit:4.13.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.8.1")
+
+    // ✅ Android instrumented testing
+    androidTestImplementation("androidx.test.ext:junit:1.1.5")
+    androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+    androidTestImplementation("androidx.test:runner:1.5.2")
+    androidTestImplementation("androidx.test:rules:1.5.0")
 }
