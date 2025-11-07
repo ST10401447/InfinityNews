@@ -45,9 +45,11 @@ The purpose of the InfinityNews App is to:
   *  UI Components: RecyclerView, CardView, ImageView.
   * Version Control: Git and GitHub.
   * 
-   # Future Plans
-   * Add Push Notifications for breaking news.
-   * Allow Offline Reading.
+   # Added Features/Updated features
+   * Push Notifications for breaking news has been added.
+   * The App now allow user to unbookmark the articles they bookMarked before.
+   * The user can change the context to be written in the language they prefer.
+   * SSO feature has been added for the user to have full access after logging in.
 
 #  Link For Video Demo:https: //youtu.be/aEHNQbqueLg?si=L3Gem1crbL1cmmhR
 
