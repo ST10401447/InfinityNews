@@ -65,7 +65,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Tech"
+                    android:text="@string/tech2"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -93,7 +93,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="General"
+                    android:text="@string/general2"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -121,7 +121,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Politics"
+                    android:text="@string/politics2"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -149,7 +149,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Sports"
+                    android:text="@string/sports2"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -177,7 +177,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Settings"
+                    android:text="@string/settings2"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -205,7 +205,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="About us"
+                    android:text="@string/about_us"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />
@@ -233,7 +233,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Privacy Policy"
+                    android:text="@string/privacy_policy"
                     android:textColor="@android:color/white"
                     android:textSize="16sp"
                     android:layout_marginStart="16dp" />

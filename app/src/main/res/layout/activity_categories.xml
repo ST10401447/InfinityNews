@@ -10,14 +10,14 @@
         android:layout_width="150dp"
         android:layout_height="150dp"
         android:src="@drawable/logo"
-        android:contentDescription="App Logo" />
+        android:contentDescription="@string/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="16dp"
-        android:text="News Categories"
+        android:text="@string/news_categories"
         android:textColor="#333333"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -52,7 +52,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="General"
+                    android:text="@string/general"
                     android:textColor="@android:color/white"
                     android:background="@drawable/button_background" />
             </LinearLayout>
@@ -76,7 +76,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="Politics"
+                    android:text="@string/politics"
                     android:textColor="@android:color/white"
                     android:background="@drawable/button_background" />
             </LinearLayout>
@@ -100,7 +100,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="Sports"
+                    android:text="@string/sports"
                     android:textColor="@android:color/white"
                     android:background="@drawable/button_background" />
             </LinearLayout>
@@ -124,7 +124,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:layout_marginStart="16dp"
-                    android:text="Tech"
+                    android:text="@string/tech"
                     android:textColor="@android:color/white"
                     android:background="@drawable/button_background" />
             </LinearLayout>

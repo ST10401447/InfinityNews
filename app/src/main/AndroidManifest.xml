@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
         android:allowBackup="true"
@@ -52,6 +54,15 @@
             android:name=".SideMenuActivity"
             android:exported="false" />
 
+        <activity
+            android:name=".NotificationsActivity"
+            android:exported="false" />
+
+        <!-- Notification Channel Service -->
+        <service
+            android:name=".services.NewsNotificationService"
+            android:enabled="true"
+            android:exported="false" />
     </application>
 
 </manifest>

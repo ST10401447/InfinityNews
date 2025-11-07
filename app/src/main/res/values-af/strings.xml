@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Infinity Nuus</string>
+    <string name="app_logo">Toepassinglogo</string>
+    <string name="bookmarks">Boekmerke</string>
+    <string name="home">Tuis</string>
+    <string name="tech">Tegnologie</string>
+    <string name="general">Algemeen</string>
+    <string name="politics">Politiek</string>
+    <string name="sports">Sport</string>
+    <string name="news_categories">Nuuskategorieë</string>
+    <string name="logo">Toepassinglogo</string>
+    <string name="search_latest_news">Soek onlangse nuus</string>
+    <string name="latest_news">Onlangse Nuus</string>
+    <string name="categories">Kategorieë</string>
+    <string name="bookmarks1">Boekmerke</string>
+    <string name="login_into_your_account">Meld aan by jou rekening</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+    <string name="login">Meld aan</string>
+    <string name="or_login_with">Of meld aan met</string>
+    <string name="google">Google</string>
+    <string name="not_register_yet_create_account">Nog nie geregistreer nie? Skep \'n rekening</string>
+    <string name="profile">Profiel</string>
+    <string name="name">Naam</string>
+    <string name="email2">E-pos</string>
+    <string name="language_preference">Taalvoorkeur</string>
+    <string name="favorite_news_category">Gunsteling nuuskategorie</string>
+    <string name="save">Stoor</string>
+    <string name="logout">Teken uit</string>
+    <string name="tech2">Tegnologie</string>
+    <string name="general2">Algemeen</string>
+    <string name="politics2">Politiek</string>
+    <string name="sports2">Sport</string>
+    <string name="settings2">Instellings</string>
+    <string name="about_us">Oor ons</string>
+    <string name="privacy_policy">Privaatheidsbeleid</string>
+    <string name="create_account">Skep rekening</string>
+    <string name="email3">E-pos</string>
+    <string name="password2">Wagwoord</string>
+    <string name="confirm_password">Bevestig wagwoord</string>
+    <string name="sign_up">Registreer</string>
+    <string name="or_sign_up_with">Of registreer met</string>
+    <string name="google2">Google</string>
+    <string name="news_title">Nuustitel</string>
+
+</resources>

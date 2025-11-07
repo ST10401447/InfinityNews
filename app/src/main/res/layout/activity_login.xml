@@ -34,7 +34,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="40dp"
-            android:text="Login into your account"
+            android:text="@string/login_into_your_account"
             android:textColor="#333333"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -44,7 +44,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="32dp"
-            android:hint="Email"
+            android:hint="@string/email"
             android:inputType="textEmailAddress"
             android:padding="16dp"
             android:background="@drawable/edit_text_background" />
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="16dp"
-            android:hint="Password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="16dp"
             android:background="@drawable/edit_text_background" />
@@ -65,7 +65,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="end"
             android:layout_marginTop="8dp"
-            android:text="Forgot Password ?"
+            android:text="@string/forgot_password"
             android:textColor="#5E35B1"
             android:textSize="14sp" />
 
@@ -74,7 +74,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="32dp"
-            android:text="Login"
+            android:text="@string/login"
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:textStyle="bold"
@@ -84,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
-            android:text="Or login with"
+            android:text="@string/or_login_with"
             android:textColor="#666666"
             android:textSize="14sp" />
 
@@ -93,7 +93,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_marginTop="16dp"
-            android:text="Google"
+            android:text="@string/google"
             android:textColor="#333333"
             android:background="@drawable/google_button_background" />
 
@@ -102,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="24dp"
-            android:text="Not register yet ? Create Account"
+            android:text="@string/not_register_yet_create_account"
             android:textColor="#333333"
             android:textSize="14sp" />
 

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mafhungo a Infinity</string>
+    <string name="app_logo">Logo ya Tshitshavha</string>
+    <string name="bookmarks">Zwithu zwa u Tandela</string>
+    <string name="home">Hayani</string>
+    <string name="tech">Thekhinolodzhi</string>
+    <string name="general">Nga u Angaredza</string>
+    <string name="politics"> zwa Polotiki</string>
+    <string name="sports"> zwa Mitambo</string>
+    <string name="news_categories">Dzindivhadzo dza Mafhungo</string>
+    <string name="logo">Logo ya Tshitshavha</string>
+    <string name="search_latest_news">Ṱoḓa mafhungo a u fhiraho</string>
+    <string name="latest_news">Mafhungo a U Fhiraho</string>
+    <string name="categories">Dzindivhadzo</string>
+    <string name="bookmarks1">Zwithu zwa u Tandela</string>
+    <string name="login_into_your_account">Ngena kha akhaunzi yanu</string>
+    <string name="email">Imeili</string>
+    <string name="password">Phasiwede</string>
+    <string name="forgot_password">No hangwa phasiwede?</string>
+    <string name="login">Ngena</string>
+    <string name="or_login_with">Kana ngena nga</string>
+    <string name="google">Google</string>
+    <string name="not_register_yet_create_account">A u athu u ṅwaliswa? Vhumbani akhaunzi</string>
+    <string name="profile">Profaila</string>
+    <string name="name">Dzina</string>
+    <string name="email2">Imeili</string>
+    <string name="language_preference">Lulimi lwo khetheaho</string>
+    <string name="favorite_news_category">Tshipiḓa tsha mafhungo tsho funwaho</string>
+    <string name="save">Vhulungani</string>
+    <string name="logout">Bva</string>
+    <string name="tech2">Thekhinolodzhi</string>
+    <string name="general2">Nga u Angaredza</string>
+    <string name="politics2">zwa Polotiki</string>
+    <string name="sports2">zwa Mitambo</string>
+    <string name="settings2">Nzudzanyo</string>
+    <string name="about_us">Nga ha Rine</string>
+    <string name="privacy_policy">Ndededzi ya Vhuṱali</string>
+    <string name="create_account">Vhumbani akhaunzi</string>
+    <string name="email3">Imeili</string>
+    <string name="password2">Phasiwede</string>
+    <string name="confirm_password">Khwaṱhisedzani Phasiwede</string>
+    <string name="sign_up">Ṅwalisani</string>
+    <string name="or_sign_up_with">Kana ṅwalisani nga</string>
+    <string name="google2">Google</string>
+    <string name="news_title">Thoho ya Mafhungo</string>
+
+</resources>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mahungu ya Infinity</string>
+    <string name="app_logo">Logo ya App</string>
+    <string name="bookmarks">Swihlawulekisi</string>
+    <string name="home">Ekaya</string>
+    <string name="tech">Thekinoloji</string>
+    <string name="general">Xiyenge xa Nhluvukiso</string>
+    <string name="politics">Vupolitiki</string>
+    <string name="sports">Mitlangu</string>
+    <string name="news_categories">Swiyenge swa Mahungu</string>
+    <string name="logo">Logo ya App</string>
+    <string name="search_latest_news">Secha mahungu ya sweswinyana</string>
+    <string name="latest_news">Mahungu ya sweswinyana</string>
+    <string name="categories">Swiyenge</string>
+    <string name="bookmarks1">Swihlawulekisi</string>
+    <string name="login_into_your_account">Nghena eka akhawunti ya wena</string>
+    <string name="email">Imeyili</string>
+    <string name="password">Phasiwede</string>
+    <string name="forgot_password">U rivale phasiwede?</string>
+    <string name="login">Nghena</string>
+    <string name="or_login_with">Kumbe nghena hi</string>
+    <string name="google">Google</string>
+    <string name="not_register_yet_create_account">A wu tsarisiwanga? Vumba akhawunti</string>
+    <string name="profile">Profayili</string>
+    <string name="name">Vito</string>
+    <string name="email2">Imeyili</string>
+    <string name="language_preference">Ririmi leri u rhandzaka</string>
+    <string name="favorite_news_category">Xiyenge xa mahungu lexi u xi rhandzaka</string>
+    <string name="save">Hlayisa</string>
+    <string name="logout">Huma</string>
+    <string name="tech2">Thekinoloji</string>
+    <string name="general2">Xiyenge xa Nhluvukiso</string>
+    <string name="politics2">Vupolitiki</string>
+    <string name="sports2">Mitlangu</string>
+    <string name="settings2">Switirhisiwa</string>
+    <string name="about_us">Hi ta Rina</string>
+    <string name="privacy_policy">Ndzawulo ya Vuxokoxoko</string>
+    <string name="create_account">Vumba akhawunti</string>
+    <string name="email3">Imeyili</string>
+    <string name="password2">Phasiwede</string>
+    <string name="confirm_password">Khomferima Phasiwede</string>
+    <string name="sign_up">Tsarisa</string>
+    <string name="or_sign_up_with">Kumbe tsarisa hi</string>
+    <string name="google2">Google</string>
+    <string name="news_title">Nhlokomhaka ya Mahungu</string>
+
+</resources>

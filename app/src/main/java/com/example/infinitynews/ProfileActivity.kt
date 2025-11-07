@@ -1,6 +1,9 @@
 package com.example.infinitynews
 
+import android.app.Activity
 import android.content.Intent
+import android.content.res.Configuration
+import android.os.Build
 import android.os.Bundle
 import android.widget.ArrayAdapter
 import android.widget.AutoCompleteTextView
@@ -9,6 +12,7 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import java.util.Locale
 
 class ProfileActivity : AppCompatActivity() {
     private lateinit var nameInput: EditText
@@ -52,15 +56,9 @@ class ProfileActivity : AppCompatActivity() {
         val languages = arrayOf(
             "English",
             "Afrikaans",
-            "Zulu",
-            "Xhosa",
-            "Sepedi",
-            "Setswana",
             "Sesotho",
             "Tsonga",
-            "Swati",
             "Venda",
-            "Ndebele"
         )
         val languageAdapter = ArrayAdapter(this, android.R.layout.simple_dropdown_item_1line, languages)
         languageDropdown.setAdapter(languageAdapter)
@@ -123,6 +121,22 @@ class ProfileActivity : AppCompatActivity() {
                 languageDropdown.requestFocus()
                 return@setOnClickListener
             }
+            if(language.equals("Sesotho")){
+                setLocale(this, "nso")
+            }
+            else if(language.equals("Venda")) {
+                setLocale(this, "ve")
+            }
+            else if(language.equals("Afrikaans")){
+                setLocale(this, "af")
+            }
+            else if(language.equals("English")){
+                setLocale(this, "nr")
+            }
+            else if(language.equals("Tsonga")){
+                setLocale(this, "ts")
+            }
+
 
             if (category.isEmpty()) {
                 Toast.makeText(this, "Please select a favorite category", Toast.LENGTH_SHORT).show()
@@ -178,5 +192,16 @@ class ProfileActivity : AppCompatActivity() {
         settingsIcon.setOnClickListener {
             startActivity(Intent(this, SideMenuActivity::class.java))
         }
+    }
+    fun setLocale(activity: Activity, language: String) {
+
+        val locale = Locale(language)
+        Locale.setDefault(locale)
+        val config = resources.configuration
+        config.setLocale(locale)
+        resources.updateConfiguration(config,resources.displayMetrics)
+
+        startActivity(Intent(activity,HomeActivity::class.java))
+        finish()
     }
 }

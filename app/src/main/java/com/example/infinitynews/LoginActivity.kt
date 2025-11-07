@@ -14,6 +14,9 @@ class LoginActivity : AppCompatActivity() {
     private lateinit var loginButton: Button
     private lateinit var createAccountText: TextView
 
+    // Make this internal so tests can access it
+    internal val loginValidator = LoginValidator()
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
@@ -32,24 +35,43 @@ class LoginActivity : AppCompatActivity() {
         }
     }
 
-    //A method to handle the login part
-
+    // Method to handle the login part
     private fun handleLogin() {
         val email = emailInput.text.toString()
         val password = passwordInput.text.toString()
 
-        if (email.isEmpty() || password.isEmpty()) {
-            Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
-            return
-        }
+        // Validate using LoginValidator
+        val result = loginValidator.validateLogin(email, password)
 
-        // Simple validation in real app, validate with backend
+        when (result) {
+            is LoginResult.EmptyFields -> {
+                Toast.makeText(this, "Please fill in all fields", Toast.LENGTH_SHORT).show()
+                return
+            }
+            is LoginResult.InvalidEmail -> {
+                Toast.makeText(this, "Please enter a valid email", Toast.LENGTH_SHORT).show()
+                return
+            }
+            is LoginResult.InvalidPassword -> {
+                Toast.makeText(this, "Password must be at least 6 characters", Toast.LENGTH_SHORT).show()
+                return
+            }
+            is LoginResult.Success -> {
+                // Validation passed, now check credentials
+                checkCredentials(email, password)
+            }
+        }
+    }
+
+    private fun checkCredentials(email: String, password: String) {
+        // Simple validation - in real app, validate with backend
         val sharedPref = getSharedPreferences("InfinityNewsPrefs", MODE_PRIVATE)
         val storedEmail = sharedPref.getString("email", "")
         val storedPassword = sharedPref.getString("password", "")
 
         if (email == storedEmail && password == storedPassword) {
             sharedPref.edit().putBoolean("isLoggedIn", true).apply()
+            sharedPref.edit().putString("userEmail", email).apply()
             startActivity(Intent(this, HomeActivity::class.java))
             finish()
         } else {

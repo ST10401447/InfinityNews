@@ -18,23 +18,23 @@ interface NewsApiService {
         @Query("apiKey") apiKey: String
     ): Call<NewsResponse>
 
+    // FIXED: Explicit query parameter, no defaults
     @GET("everything")
-    fun searchNews(
+    fun getPoliticsNews(
         @Query("q") query: String,
-        @Query("language") language: String = "en",
-        @Query("sortBy") sortBy: String = "publishedAt",
+        @Query("language") language: String,
+        @Query("sortBy") sortBy: String,
         @Query("apiKey") apiKey: String
     ): Call<NewsResponse>
 
     @GET("everything")
-    fun getNewsByLanguage(
-        @Query("q") query: String = "news",
-        @Query("language") language: String,
-        @Query("sortBy") sortBy: String = "publishedAt",
+    fun searchNews(
+        @Query("q") query: String,
         @Query("apiKey") apiKey: String
     ): Call<NewsResponse>
 }
 
+// Keep these data classes in the same file
 data class NewsResponse(
     val status: String,
     val totalResults: Int,
@@ -44,9 +44,9 @@ data class NewsResponse(
 data class Article(
     val source: Source?,
     val author: String?,
-    val title: String,
+    val title: String?,
     val description: String?,
-    val url: String,
+    val url: String?,
     val urlToImage: String?,
     val publishedAt: String?,
     val content: String?
@@ -54,5 +54,5 @@ data class Article(
 
 data class Source(
     val id: String?,
-    val name: String
+    val name: String?
 )
